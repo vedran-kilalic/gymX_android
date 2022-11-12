@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gymx">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GymX">
+        <activity
+            android:name=".RoutineCalisthenicsLegsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoutineCalisthenicsArmsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoutineCalisthenicsBackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoutineCalisthenicsChestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoutineBarLegsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoutineBarArmsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoutineBarBackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoutineBarChestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoutineFullLegsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoutineFullArmsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoutineFullBackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoutineFullChestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MusclesCalisthenicsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MusclesBarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MusclesFullActivity"
+            android:exported="false"
+            android:parentActivityName=".MachinesActivity" />
+        <activity
+            android:name=".MachinesActivity"
+            android:exported="false"
+            android:parentActivityName=".MainMenuActivity" />
+        <activity
+            android:name=".MainMenuActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SignInActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
